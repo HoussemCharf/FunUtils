@@ -10,7 +10,7 @@ conn.request("GET", "/")
 response = conn.getresponse()
 data = response.read()
 # applying beautifulsoup for parsing
-soup = BS(data)
+soup = BS(data,"html.parser")
 # parsing the table for the needed infos
 table = soup.find('tbody')
 rows = table.findAll('tr')
