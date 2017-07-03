@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CSS/JS Minimizer by Houssem</title>
+	<style type="text/css">
+		textarea {
+			border: 1px solid #888;
+			height: 250px;
+			width:100%;
+		}
+	</style>
+</head>
+<body>
+<script>
+		window.onload = function() {
+		var fileI = document.getElementById('cssfile'); // Selecting the file input
+		var display = document.getElementById('CssMinimized'); //Selecting the text field by id
+		var str =""; // variable that gonna take all the content of the file 
+	
+			// event listener for the change of state
+		fileI.addEventListener('change', function(e) {
+			
+			var file = fileI.files[0];
+
+			var textType = /text.*/;
+				// testing the type of file "we dont wanna execute a malicious code dont we ?"
+			if (file.type.match(textType)) 
+			{
+				// defining a file reader 
+				var reader = new FileReader();
+				// here is where the magic happen taking off the spaces and the breaklines and storing them in the display section in our page hmd :P
+				reader.onload = function(e) 
+				{	str=reader.result;
+					str=str.replace(/(\s|\r\n|\n|\r)/gm,"");
+					display.innerText =str ;
+				}
+					// executing the reader
+				reader.readAsText(file);	
+			} 
+			else 
+			{	//Obv Error message lol :P
+				display.innerText = "File not supported!";
+			}
+		});
+}
+
+	</script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+	<header>
+
+		<h1 align="center">CSS/HTML Minimizer by Houssem</h1>
+
+	</header>
+		<div align="center">
+			Select The file you wanna Minimize :P
+			<br>
+			<input type="file" id="cssfile">
+		</div>
+		<br>
+		<br>
+		<textarea id="CssMinimized" width="100" height="100"></textarea>
+
+	</div>
+	
+	
+
+	<footer ">
+	<p align="center">
+
+	Coded By Houssem Charfeddine
+	</p></footer>
+</body>
+</html>
