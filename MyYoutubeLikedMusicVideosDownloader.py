@@ -55,8 +55,9 @@ def print_results(results):
   #print results["items"][0]["snippet"]["categoryId"]
   #print results["items"][0]["snippet"]["title"]
   #print results["items"][0]["id"]
-  #for alpha in List_of_ids_name:
-    #print alpha
+  print "List Downloaded:"
+  for alpha in List_of_ids_name:
+    print alpha[0]+"\r"
   return List_of_ids_name
 
 
