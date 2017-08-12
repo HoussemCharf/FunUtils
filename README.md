@@ -48,7 +48,7 @@ Feel free to contribute in this all you have to do is submit a pull request.
    |-Music2.mp3       =======================>      | |-Music1.mp3 
    |-Music3.mp4                                     | |-Music2.mp3
    |-file.pdf                                       |-MP4
-                                                    | |-Music4.mp4
+                                                    | |-Music3.mp4
                                                     |-PDF
                                                     | |-file.pdf
 ```
