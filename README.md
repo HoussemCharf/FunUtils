@@ -39,21 +39,15 @@ Feel free to contribute in this all you have to do is submit a pull request.
 5. **Pandora_Keep_Listening_Tamper** : a small javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup"
 
 6. **FolderExSorter** : a python based application that sort a folder according to files extentions 
-   ```
-   Example:
-   Folder                                           Folder
-   |-Music1.mp3       Python FolderExSorter.py      |-MP3
-   |-Music2.mp3       =======================>      | |-Music1.mp3 
-   |-Music3.mp4                                     | |-Music2.mp3
-   |-file.pdf                                       |-MP4
-                                                    | |-Music4.mp4
-                                                    |-PDF
-                                                    | |-file.pdf
-                                                       
-  ```
-  7. **MorningAlarm** : A small python code for morning alarm.
+
+```
+python CodeToExecute.py
+```
+
+
+7. **MorningAlarm** : A small python code for morning alarm.
   
-  8. **NewProxy** : A console based python application capable of providing fresh proxy servers list everytime you excute it
+8. **NewProxy** : A console based python application capable of providing fresh proxy servers list everytime you excute it
   
 ## Authors
 
