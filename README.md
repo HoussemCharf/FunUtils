@@ -34,7 +34,7 @@ Feel free to contribute in this all you have to do is submit a pull request.
 
 3. **ExChanger** : a python based application capable of changing all extentions of files in same forlder to a given one
 
-4. **MyYoutubeLikedMusicVideosDownloader** : a python based application capable of parsing your youtube account Like history and downloading ONLY Music category as an MP3 format.
+4. **MyYoutubeLikedMusicVideosDownloader** : a python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
 
 5. **Pandora_Keep_Listening_Tamper** : a small javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup"
 
