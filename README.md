@@ -30,15 +30,15 @@ Feel free to contribute in this all you have to do is submit a pull request.
 ## Contents description
 1. **AndroidKivyApp_Letters2Words** : Is a small IOS/Android application core developed in python using Kivy framework in order to solve scrumbled letters puzzles (It came handy with wordcookie game in playstore)
 
-2. **CSS-JS_minimiser** : Js/html page for the purpose of minifying CSS/Javascript codes
+2. **CSS-JS_minimiser** : JS/HTML page for the purpose of minifying CSS/Javascript codes
 
-3. **ExChanger** : a python based application capable of changing all extentions of files in same folder to a given one
+3. **ExChanger** : a Python based application capable of changing all extentions of files in same folder to a given one
 
-4. **MyYoutubeLikedMusicVideosDownloader** : a python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
+4. **MyYoutubeLikedMusicVideosDownloader** : a Python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
 
-5. **Pandora_Keep_Listening_Tamper** : a small javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup"
+5. **Pandora_Keep_Listening_Tamper** : a small Javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup"
 
-6. **FolderExSorter** : a python based application that sorts a folder according to files extentions 
+6. **FolderExSorter** : a Python based application that sorts a folder according to files extentions 
 
 ```
    Example:
@@ -54,9 +54,18 @@ Feel free to contribute in this all you have to do is submit a pull request.
 ```
 
 
-7. **MorningAlarm** : A small python code for morning alarm.
+7. **MorningAlarm** : A small Python code for morning alarm.
   
-8. **NewProxy** : A console based python application capable of providing fresh proxy servers list everytime you excute it
+8. **NewProxy** : A console based Python application capable of providing fresh proxy servers list everytime you excute it
+
+9. **CSV Data Handler**: A console program to delete rows from a CSV file.
+ 
+    ```
+    Usage:
+    
+        python code.py -i sample.csv -o output.csv  -m ROW -n 3
+    ```
+
   
 ## Authors
 
