@@ -58,12 +58,12 @@ Feel free to contribute in this all you have to do is submit a pull request.
   
 8. **NewProxy** : A console based Python application capable of providing fresh proxy servers list everytime you excute it
 
-9. **CSV Data Handler**: A console program to delete rows from a CSV file.
+9. **CSV Data Handler**: A console program to delete rows or columns from a CSV file.
  
     ```
     Usage:
     
-        python code.py -i sample.csv -o output.csv  -m ROW -n 3
+        python code.py -i sample.csv -o output.csv  -m (row or col) -n 3
     ```
 
   
