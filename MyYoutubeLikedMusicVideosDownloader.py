@@ -51,7 +51,7 @@ def print_results(results):
   # https://gist.github.com/dgp/1b24bf2961521bd75d6c
     if x["snippet"]["categoryId"] == "10" :
       List_of_ids_name.append([x["snippet"]["title"],x["id"]])
-  #DEBUGGING PURPOSES
+  #DEBUGGING PURPOSES.
   #print results["items"][0]["snippet"]["categoryId"]
   #print results["items"][0]["snippet"]["title"]
   #print results["items"][0]["id"]
@@ -92,7 +92,7 @@ def build_resource(properties):
         ref = ref[key]
   return resource
 
-# Remove keyword arguments that are not set
+# Remove keyword arguments that are not set.
 def remove_empty_kwargs(**kwargs):
   good_kwargs = {}
   if kwargs is not None:
@@ -101,23 +101,20 @@ def remove_empty_kwargs(**kwargs):
         good_kwargs[key] = value
   return good_kwargs
 
-
-
-
-#download the song file and saves it in the current folder
+# Download the song file and saves it in the current folder.
 def download_mp3(link,song_name):
   f = urllib2.urlopen(link)
   data = f.read()
   with open(song_name+".mp3", "wb") as code:
     code.write(data)
-# get the direct link of the file
+# Get the direct link of the file.
 def get_the_mp3 (id):
   html_page = urllib2.urlopen(base64.b64decode(CLIENT_SECRET_PASS)+id)
   soup = bs(html_page, "html.parser")
   link = soup.find(id="downloadButton")
   result = str(base64.b64decode(SERVICE_TOKEN)+link.get('href'))
   return result
-#get ids of videos 
+# Get ids of videos.
 
 def videos_list_my_rated_videos(service, **kwargs):
   kwargs = remove_empty_kwargs(**kwargs) 
@@ -128,7 +125,7 @@ def videos_list_my_rated_videos(service, **kwargs):
   ToBeDownloaded=print_results(results)
   for element in ToBeDownloaded:
     download_mp3(get_the_mp3(element[1]),element[0])
-# Start of the main function
+# Start of the main function.
 videos_list_my_rated_videos(service,
     part='snippet,contentDetails,statistics',
     myRating='like')
