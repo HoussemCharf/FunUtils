@@ -1,6 +1,6 @@
 # FunUtils
 
- Some codes i wrote to help me with me with errands. it really made my life easier hope it does for you too ^^
+ Some codes I wrote to help me with errands. it really made my life easier hope it does for you too ^^
 
 ## Requirement
 
@@ -32,13 +32,13 @@ Feel free to contribute in this all you have to do is submit a pull request.
 
 2. **CSS-JS_minimiser** : Js/html page for the purpose of minifying CSS/Javascript codes
 
-3. **ExChanger** : a python based application capable of changing all extentions of files in same forlder to a given one
+3. **ExChanger** : a python based application capable of changing all extentions of files in same folder to a given one
 
 4. **MyYoutubeLikedMusicVideosDownloader** : a python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
 
 5. **Pandora_Keep_Listening_Tamper** : a small javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup"
 
-6. **FolderExSorter** : a python based application that sort a folder according to files extentions 
+6. **FolderExSorter** : a python based application that sorts a folder according to files extentions 
 
 ```
    Example:
