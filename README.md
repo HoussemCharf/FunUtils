@@ -80,7 +80,7 @@ Feel free to contribute in this all you have to do is submit a pull request.
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
-
+* **Marco Bakera** - *RasPiPoweroff* - [Pintman](https://github.com/pintman)
 
 ## License
 
