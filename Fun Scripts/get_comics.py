@@ -4,7 +4,7 @@ import os
 
 n = int(sys.argv[1])
 if len(sys.argv) < 3:
-	comicsDirectory = os.getcwd()
+	comicsDirectory = os.getcwd() + "/"
 else:
 	comicsDirectory = sys.argv[2]
 url = "https://xkcd.com/"
