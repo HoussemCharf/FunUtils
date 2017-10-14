@@ -73,11 +73,14 @@ Feel free to contribute in this all you have to do is submit a pull request.
 12. **Torrent Checker** : Checks the IP address of a torrents to make sure they can be connected too.
 
 13. **MyYoutubeLikedMusicVideosDownloader** : a Python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
- 
+
+14. **RasPiPowerOff**: Turn off your Raspberry Pi with a button on your Smartphone.
+
+
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
-
+* **Marco Bakera** - *RasPiPoweroff* - [Pintman](https://github.com/pintman)
 
 ## License
 
