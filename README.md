@@ -60,9 +60,9 @@ Feel free to contribute in this all you have to do is submit a pull request.
                                                     | |-file.pdf
 ```
 
-7. **Letter to words** : Python code to convert letters to words.
+7. **Letter to words** : Python code to convert scrambled letters to words.
 
-7. **MorningAlarm** : A small Python code for morning alarm.
+8. **MorningAlarm** : A small Python code for morning alarm.
 
 9. **Pandora Web browser script** : a small Javascript code for tamper Monkey to keep pandora playing none stop without "are you still listening popup".
 
