@@ -5,6 +5,7 @@
 ## Requirement
 
 * Python 2.7
+* Python 3.x
 
 
 ### Installing
@@ -114,7 +115,7 @@ list.json
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
 * **Marco Bakera** - *RasPiPoweroff* - [Pintman](https://github.com/pintman)
-
+* **Shashank S** - *Backup,Get Comics,Wallpaper* - [talsperre](https://github.com/talsperre)
 ## License
 
 codes are licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
