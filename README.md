@@ -36,12 +36,11 @@ Feel free to contribute in this all you have to do is submit a pull request.
 3. **CSS-JS_minimiser** : JS/HTML page for the purpose of minifying CSS/Javascript codes.
 
 4. **CSV Data Handler**: A console program to delete rows or columns from a CSV file.
- 
-    ```
-    Usage:
 
+```
+    Usage:
         python code.py -i sample.csv -o output.csv  -m (row or col) -n 3
-    ```
+```
 
 5. **Extension Changer** : a Python based application capable of changing all extentions of files in same folder to a given one.
 
@@ -75,6 +74,40 @@ Feel free to contribute in this all you have to do is submit a pull request.
 13. **MyYoutubeLikedMusicVideosDownloader** : a Python based application capable of parsing your youtube account Like history and download ONLY Music category as an MP3 format.
 
 14. **RasPiPowerOff**: Turn off your Raspberry Pi with a button on your Smartphone.
+
+15. **Wallpaper**: A python script for downloading bing wallpaper of the day and setting it up as the desktop background image. (Ubuntu only)
+
+16. **Xkcd**: A python script for downloading xkcd comics at a given directory
+```
+python3 xkcd.py -n -d
+-n: no of comics to downlaod
+-d: directory where it needs to be downloaded
+```
+
+17. **Backup**: A script for backing up files using git. Usage:
+   - Create a Github/Gitlab repository (Init and fetching remote)
+   - Add backup.py and list.json as mentioned
+   - Fill the list.json file with things to backup
+   - Run backup.py with varioius arguments
+```
+python backup.py backup
+python backup.py push
+python backup.py restore
+```
+
+list.json
+
+```
+[
+  [
+    "path_to_original_file",
+    "Name of file in current directory"
+  ],
+  [
+    ...
+  ],
+]
+```
 
 
 ## Authors
