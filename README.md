@@ -81,7 +81,7 @@ Feel free to contribute in this all you have to do is submit a pull request.
 16. **Xkcd**: A python script for downloading xkcd comics at a given directory
 ```
 python3 xkcd.py n d
--n: no of comics to downlaod
+-n: no of comics to download
 -d: directory where it needs to be downloaded
 ```
 
