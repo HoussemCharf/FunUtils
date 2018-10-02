@@ -112,12 +112,15 @@ list.json
 
 18. **ToDo**: A python script that notifies you according to your todo list
 
+19. **Bad Link Filter**: A python script that filters all the dangerous links out of a list using [spoopy.link](https://spoopy.link/).
+
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
 * **Marco Bakera** - *RasPiPoweroff* - [Pintman](https://github.com/pintman)
 * **Shashank S** - *Backup,Get Comics,Wallpaper* - [talsperre](https://github.com/talsperre)
 * **Aditya Y** - *ToDo* - [Screwed-U-Head](https://github.com/Screwed-Up-Head)
+* **Bart E** - *Bad Link Filter* - [Callidus](https://github.com/Baev1)
 ## License
 
 codes are licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
