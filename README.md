@@ -110,12 +110,14 @@ list.json
 ]
 ```
 
+18. **ToDo**: A python script that notifies you according to your todo list
 
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
 * **Marco Bakera** - *RasPiPoweroff* - [Pintman](https://github.com/pintman)
 * **Shashank S** - *Backup,Get Comics,Wallpaper* - [talsperre](https://github.com/talsperre)
+* **Aditya Y** - *ToDo* - [Screwed-U-Head](https://github.com/Screwed-Up-Head)
 ## License
 
 codes are licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
