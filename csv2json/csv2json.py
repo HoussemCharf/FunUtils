@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import time
 
-def main():
-    df = pd.read_csv('yelp_business.csv')
+def csv2json(csv_file):
+    df = pd.read_csv(csv_file)
     print len(df)
     h1 = h = list(df.columns.values)
 
@@ -33,6 +33,10 @@ def main():
         rec += '},'
         target.write(rec+'\n')
     target.close()
+
+def main():
+    csv_file = sys.argv[1]
+    csv2json(csv_file)
 
 if __name__ == '__main__':
     main()
