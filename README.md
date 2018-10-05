@@ -114,6 +114,8 @@ list.json
 
 19. **Bad Link Filter**: A python script that filters all the dangerous links out of a list using [spoopy.link](https://spoopy.link/).
 
+20. **Net Job Creation**: A python script that queries the US Census Bureau's database to get a trend of net job creation from 1980 - 2014. More info on the classifiers in the data [here](https://www.census.gov/data/developers/data-sets/business-dynamics.html)
+
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
