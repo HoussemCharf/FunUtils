@@ -114,6 +114,8 @@ list.json
 
 19. **Bad Link Filter**: A python script that filters all the dangerous links out of a list using [spoopy.link](https://spoopy.link/).
 
+20. **Clipboard Translator**: Program that automatically translates a text copied to the clipboard.
+
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
