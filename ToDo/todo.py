@@ -3,7 +3,7 @@ import datetime
 import webbrowser
 import time
 def main():
-    print ("The Scheduler has begun !!!! :) \nThe Scheduler is now ACTIVE"
+    print ("The Scheduler has begun !!!! :) \nThe Scheduler is now ACTIVE")
     while(1):
         tempTime = str(datetime.datetime.now().time())
         listTime = tempTime.split(':',1)
@@ -52,6 +52,6 @@ def main():
                     f.write("Task 6\n")
                 webbrowser.open_new_tab('C:\Users\user\Desktop\todo.txt')
                 time.sleep(1)
-    print "The Scheduler is now INACTIVE"
+    print ("The Scheduler is now INACTIVE")
 if __name__ == '__main__':
     main()
