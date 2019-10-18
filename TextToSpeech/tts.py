@@ -6,7 +6,10 @@ from utils import *
 PATH_TO_AUDIO_DIR = r"audio/"
 DEFAULT_AUDIO_FILE = PATH_TO_AUDIO_DIR + "temporary.mp3"
 
-
+#NOTE:
+# install dependencies:
+# pip3 install gTTS
+# pip3 install playsound
 class Speaker:
     def __init__(self, language="en-us"):
         self._language = language
