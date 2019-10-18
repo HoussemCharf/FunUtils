@@ -2,6 +2,20 @@ import speech_recognition as sr
 
 #dependency - SpeechRecognition lib https://github.com/Uberi/speech_recognition - pip3 install SpeechRecognition
 #convert speech to text from microphone audio
+
+
+RECOGNITION_METHODS = {
+    "bing": "recognize_bing",
+    "google": "recognize_google",
+    "google_cloud": "recognize_google_cloud",
+    "houndify": "recognize_houndify",
+    "ibm": "recognize_ibm",
+    "sphinx": "recognize_sphinx",
+    "wit": "recognize_wit",
+    "azure": "recognize_azure"
+
+}
+
 class SpeechRecognizer:
 
     def __init__(self, recognition_api="google", language="en-us"):
@@ -37,8 +51,8 @@ class SpeechRecognizer:
         """
         Returns action result with recognized text from the speech. Input speech is read from microphone. Raises RequestError or
         UnknownValueError.
-        :rtype: ActionResult
-        :return: ActionResult with recognized text from the speech
+        :rtype: string
+        :return: recognized text from the speech
         """
         audio = self._get_audio_from_microphone()
         speech = self._recognition_method(audio, language=self._language)
@@ -69,8 +83,7 @@ class SpeechRecognizer:
         if self._microphone is not None:
             with self._microphone as source:
                 print('Ready for command...')
-                logger.info("Ready for command...")
                 self._recognizer.adjust_for_ambient_noise(source)
                 audio = self._recognizer.listen(source)
-                logger.debug("Audio data = {}".format(audio))
+                print("Audio data = {}".format(audio))
         return audio
