@@ -1,4 +1,6 @@
 import speech_recognition as sr
+from config.config import *
+from services.common.action_result import ActionResult
 
 #dependency - SpeechRecognition lib https://github.com/Uberi/speech_recognition - pip3 install SpeechRecognition
 #convert speech to text from microphone audio
@@ -42,7 +44,8 @@ class SpeechRecognizer:
         """
         audio = self._get_audio_from_microphone()
         speech = self._recognition_method(audio, language=self._language)
-        return speech
+        result = ActionResult(speech, SUCCESS)
+        return result
 
     # private methods
     def _determine_recognition_method(self):
