@@ -114,6 +114,13 @@ list.json
 
 19. **Bad Link Filter**: A python script that filters all the dangerous links out of a list using [spoopy.link](https://spoopy.link/).
 
+20. **Clipboard Translator**: Program that automatically translates a text copied to the clipboard.
+
+21. **Translate Excel**: Program that uses google translator to translate an excel column and row-range in a given excel sheet. It asks from which language to which you want to translate.
+```
+python3 translate_excel.py <<filename>> <<column>> <<row start>> <<row end>>
+```
+
 ## Authors
 
 * **Houssem Charfeddine** - *FunUtils* - [HC](https://github.com/HoussemCharf)
@@ -121,6 +128,8 @@ list.json
 * **Shashank S** - *Backup,Get Comics,Wallpaper* - [talsperre](https://github.com/talsperre)
 * **Aditya Y** - *ToDo* - [Screwed-U-Head](https://github.com/Screwed-Up-Head)
 * **Bart E** - *Bad Link Filter* - [Callidus](https://github.com/Baev1)
+* **Lukas Loukota** - *Translate Excel* - [loukotal](https://github.com/loukotal)
+
 ## License
 
 codes are licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details

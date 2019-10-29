@@ -14,8 +14,8 @@ from oauth2client.tools import argparser, run_flow
 
 
 CLIENT_SECRETS_FILE = "client_id.json"
-CLIENT_SECRET_PASS='''aHR0cDovL3d3dy55b3V0dWJlaW5tcDMuY29tL3dpZGdldC9idXR0b24vP3ZpZGVvPWh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9'''
-SERVICE_TOKEN = '''aHR0cDovL3d3dy55b3V0dWJlaW5tcDMuY29t'''
+CLIENT_SECRET_PASS=''''''
+SERVICE_TOKEN = ''''''
 YOUTUBE_READ_WRITE_SSL_SCOPE = "https://www.googleapis.com/auth/youtube.force-ssl"
 API_SERVICE_NAME = "youtube"
 API_VERSION = "v3"
