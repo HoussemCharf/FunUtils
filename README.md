@@ -1,4 +1,6 @@
 ## FunUtils
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHoussemCharf%2FFunUtils.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHoussemCharf%2FFunUtils?ref=badge_shield)
+
 
  Some codes I wrote to help me with errands. it really made my life easier hope it does for you too ^^
 
@@ -134,3 +136,6 @@ python3 translate_excel.py <<filename>> <<column>> <<row start>> <<row end>>
 
 codes are licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHoussemCharf%2FFunUtils.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHoussemCharf%2FFunUtils?ref=badge_large)
